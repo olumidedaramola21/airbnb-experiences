@@ -1,7 +1,12 @@
+import vector from '../images/vector.png';
+
 export default function Navbar() {
     return (
-        <div>
-            <h1>Navbar</h1>
+        <div className='nav--bar--container'>
+        <div className="nav--bar">
+            <img src={vector} alt="" />
+
+        </div>
         </div>
     )
 }

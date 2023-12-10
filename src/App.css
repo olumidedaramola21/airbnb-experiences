@@ -4,6 +4,14 @@ body {
     font-family: 'Poppins', sans-serif;
   }
   
+.gray {
+  color: rgba(145, 142, 155, 1)
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* Navbar-jsx Style */
 .nav--bar--container {
     display: flex;
@@ -35,4 +43,19 @@ align-self: center;
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 176px;
+  font-size: 12px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  width: 14px;
+  height: 14px;
 }

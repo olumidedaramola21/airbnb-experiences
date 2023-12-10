@@ -1,10 +1,8 @@
 body {
     margin: 0px;
     padding: 0;
-    background-color: rgb(156, 154, 154)
+    /* background-color: rgb(156, 154, 154) */
   }
-
-
   
 /* Navbar-jsx Style */
 .nav--bar--container {
@@ -13,4 +11,15 @@ body {
     height: 70px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero-jsx Style */
+
+section {
+  padding: 20px;
+}
+
+.hero--section {
+  display: flex;
+  flex-direction: column;
 }

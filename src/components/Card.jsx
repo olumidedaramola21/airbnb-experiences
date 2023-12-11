@@ -1,10 +1,12 @@
-import picture from "../images/picture1.png";
+// import picture from "../images/picture1.png";
 import star from "../images/star 1.png";
 
-export default function Card() {
+import PropTypes from 'prop-types';
+
+export default function Card(props) {
   return (
     <div className="card--image">
-      <img src={picture} alt="" className="card--image" />
+      <img src={props.img} alt="Card Image" className="card--image" />
       <div className="card--stats">
         <img src={star} alt="" className="card--star" />
         <span>5.0</span>
@@ -16,3 +18,7 @@ export default function Card() {
     </div>
   );
 }
+
+Card.propTypes = {
+  img: PropTypes.string.isRequired,
+};

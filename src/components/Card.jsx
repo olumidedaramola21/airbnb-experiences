@@ -1,6 +1,3 @@
-// import picture from "../images/picture1.png";
-import star from "../images/star 1.png";
-
 import PropTypes from 'prop-types';
 
 export default function Card(props) {
@@ -8,7 +5,7 @@ export default function Card(props) {
     <div className="card--image">
       <img src={props.img} alt="Card Image" className="card--image" />
       <div className="card--stats">
-        <img src={star} alt="" className="card--star" />
+        <img src='/Star 1.png' alt="" className="card--star" />
         <span>5.0</span>
         <span className="gray">(6) . </span>
         <span className="gray">USA</span>

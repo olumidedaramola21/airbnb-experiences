@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 
 export default function Card(props) {
   return (
-    <div className="cards">
-        <div className="card--image">
+    <div className="card">
         <img src={props.img} alt="Card Image" className="card--image" />
         <div className="card--stats">
           <img src="/Star 1.png" alt="" className="card--star" />
@@ -15,7 +14,7 @@ export default function Card(props) {
         <p className="card--prize">
           <span className="bold">From ${props.price}</span> / person
         </p>
-        </div>
+        
     </div>
   );
 }

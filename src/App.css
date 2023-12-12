@@ -100,14 +100,14 @@ width: 100%;
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .card {
     font-size: 14px; 
     margin: 120px;
     width: 200px;
    
   }
-}
+} */
 
 .card--badge {
  position: absolute; 

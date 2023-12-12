@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 export default function Card(props) {
   return (
     <div className="card">
+        {props.openSpots === 0 &&  <div className="card--badge">SOLD OUT</div>}
         <img src={props.img} alt="Card Image" className="card--image" />
         <div className="card--stats">
           <img src="/Star 1.png" alt="" className="card--star" />
@@ -26,4 +27,5 @@ Card.propTypes = {
   country: PropTypes.string.isRequired,
   reviewCount: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
+  openSpots: PropTypes.number.isRequired,
 };
